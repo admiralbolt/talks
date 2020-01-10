@@ -8,19 +8,6 @@
 
 ---
 
-Oh snap
-
----
-
----?color=#002b36
-
-
-```javascript zoom-18
-alert(alert('asdf'));
-```
-
----
-
 @snap[north span-100]
 ### JS
 
