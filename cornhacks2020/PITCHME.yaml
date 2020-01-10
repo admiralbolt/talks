@@ -1,7 +1,3 @@
-# GitPitch In-60-Seconds - A Very Short Tutorial.
-#
-
-#
 # Theme Template
 # Doc: https://gitpitch.com/docs/themes/default
 #
@@ -41,7 +37,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "Javascript Sucks - CornHacks 2020"
 
 #
 # Published Setting

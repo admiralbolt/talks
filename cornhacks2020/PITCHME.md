@@ -8,6 +8,16 @@
 
 ---
 
+Oh snap
+
+---
+
+```javascript zoom-18
+alert(alert('asdf'));
+```
+
+---
+
 @snap[north span-100]
 ### JS
 @snapend
