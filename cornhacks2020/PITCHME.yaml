@@ -14,10 +14,10 @@ theme-margins    : [ "0", "15px" ]
 
 highlight        : solarized-dark
 
-#
 # Theme-Override Setting
 # Doc: https://gitpitch.com/docs/settings/custom-theme
-#
+# Interesting note, styles are inlined so you won't see this
+# loaded as a separate source in the network tab.
 theme-override: cornhacks2020/assets/css/PITCHME.css
 
 #
