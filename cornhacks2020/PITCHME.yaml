@@ -18,13 +18,13 @@ highlight        : solarized-dark
 # Theme-Override Setting
 # Doc: https://gitpitch.com/docs/settings/custom-theme
 #
-theme-override: cornhacks/assets/css/PITCHME.css
+theme-override: cornhacks2020/assets/css/PITCHME.css
 
 #
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : assets/images/logo.png
+logo : cornhacks2020/assets/images/logo.png
 logo-position : top-left
 
 #
