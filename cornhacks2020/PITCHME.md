@@ -10,9 +10,17 @@
 
 @snap[north span-100]
 ### JS
+@snapened
 
-```javascript zoom-18
+@snap[north span-100 fragment]
+```javascript zoom-25
 > 1 == 1
+```
+@snapend
+
+@snap[north span-100 fragment]
+```javascript zoom-25
+true
 ```
 @snapend
 
@@ -21,7 +29,7 @@
 @snap[north span-100]
 ### JS
 
-```javascript zoom-18
+```javascript zoom-25
 > 1 == 1
   true
 ```
