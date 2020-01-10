@@ -23,19 +23,19 @@ alert(alert('asdf'));
 
 @snap[north span-100]
 ### JS
-@snapend
 
 ```javascript zoom-18
 1 == 1
 ```
+@snapend
 
 +++
 
 @snap[north span-100]
 ### JS
-@snapend
 
 ```javascript zoom-18
 1 == 1
   true
 ```
+@snapened
