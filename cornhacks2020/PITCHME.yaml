@@ -12,7 +12,7 @@ theme-code       : [ "Fira Code" ]
 theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
 
-highlight        : ir-black
+highlight        : solarized-dark
 
 #
 # Theme-Override Setting
