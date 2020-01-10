@@ -8,15 +8,21 @@
 
 ---
 
-
-### Lightning Round
+@snap[north span-100]
+### JS
+@snapend
 
 ```javascript zoom-18
 1 == 1
 ```
 
 +++
+
+@snap[north span-100]
+### JS
+@snapend
+
 ```javascript zoom-18
-let a = [];
-a == a
+1 == 1
+  true
 ```
