@@ -12,7 +12,7 @@
 ### JS
 
 ```javascript zoom-18
-1 == 1
+> 1 == 1
 ```
 @snapend
 
@@ -22,7 +22,7 @@
 ### JS
 
 ```javascript zoom-18
-1 == 1
+> 1 == 1
   true
 ```
-@snapened
+@snapend
