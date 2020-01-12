@@ -208,77 +208,64 @@ false
 ---
 @snap[north span-100]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
-> let a = new String("100");
-> a == a
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
-true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
-> 100 == a
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
 > 100 == a
-true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
 > 100 == a
 true
-> a = [];
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
 > 100 == a
 true
 > a = [];
-> a == a
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
@@ -286,13 +273,12 @@ true
 true
 > a = [];
 > a == a
-true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
@@ -301,13 +287,12 @@ true
 > a = [];
 > a == a
 true
-> a = {};
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
@@ -317,13 +302,12 @@ true
 > a == a
 true
 > a = {};
-> a == a
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
@@ -334,13 +318,12 @@ true
 true
 > a = {};
 > a == a
-true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
@@ -352,13 +335,12 @@ true
 > a = {};
 > a == a
 true
-> a = NaN;
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
@@ -371,13 +353,31 @@ true
 > a == a
 true
 > a = NaN;
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript zoom-30```
+> let a = new String("100");
+> a == a
+true
+> 100 == a
+true
+> a = [];
+> a == a
+true
+> a = {};
+> a == a
+true
+> a = NaN;
 > a == a
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript zoom-30```
 > let a = new String("100");
 > a == a
 true
