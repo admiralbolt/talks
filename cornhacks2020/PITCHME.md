@@ -2,9 +2,10 @@
 
 ---
 
-## Add Some Slide Candy
-
-![IMAGE](assets/img/presentation.png)
+## Test
+```javascript zoom-5
+> some_function();
+```
 
 ---
 @snap[north span-100]
