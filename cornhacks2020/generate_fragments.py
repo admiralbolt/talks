@@ -85,6 +85,63 @@ def make_slides():
         "> a == a",
         "false"
     ]))
+    print("---")
+    print(fragmentize("Fun with arrays", [
+        "> [\"1\", \"2\", \"3\"].map(parseInt)",
+        "[1, NaN, NaN]",
+        "> [1] + [2] + [3]",
+        "\"123\"",
+        "> [1, 2] + [3, 4]",
+        "\"1,23,4\"",
+        "> [1, 2, 3][3, 2, 1]",
+        "2"
+    ]))
+    print("---")
+    print(fragmentize("<= != < || ==", [
+        "> [1, 2, 3] == [1, 2, 3]",
+        "false",
+        "> [1, 2, 3] < [1, 2, 3]",
+        "false",
+        "> [1, 2, 3] <= [1, 2, 3]",
+        "true"
+    ]))
+    print("---")
+    print(fragmentize("Wat", [
+        "> [] + []",
+        "\"\"",
+        "> [] + {}",
+        "\"[Object object]\"",
+        "> {} + []",
+        "0",
+        "> [] - []",
+        "0",
+        "> {} - []",
+        "-0",
+        "> [] - {}",
+        "NaN"
+    ]))
+    print("---")
+    print(fragmentize("Wat 2", [
+        "> \"\"*\"\" == 0",
+        "true",
+        "> \"\"**\"\" == 1",
+        "true",
+        "> \"\"***\"\" == 2",
+        "Syntax Error: Unexpected token *",
+        "> typeof(NaN)",
+        "number",
+        "> Number(undefined)",
+        "NaN",
+        "> Number(null)",
+        "0"
+    ]))
+    print("---")
+    print(fragmentize("A footnote on whitespace", [
+        "> 42.toFixed(2)",
+        "SyntaxError: Invalid or unexpected token",
+        "> 42 .toFixed(2)",
+        "42.00",
+    ]))
     return
 
 if __name__ == "__main__":
