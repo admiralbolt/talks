@@ -5,7 +5,7 @@ stuff. This script works by passing in lines of code you want fragmentized,
 and then all you have to do is copy paste it into your pitchme.
 """
 
-def fragmentize(title, lines, zoom=35):
+def fragmentize(title, lines):
     """Fragmentize some stuff.
 
     For example, if you call:
@@ -29,15 +29,15 @@ def fragmentize(title, lines, zoom=35):
     """
     slide_content = []
     for i in range(len(lines)):
-        slide_content.extend(get_snap_block(title, lines[:i+1], zoom, fragment=(i != 0), endline=(i != len(lines) - 1)))
+        slide_content.extend(get_snap_block(title, lines[:i+1], fragment=(i != 0), endline=(i != len(lines) - 1)))
     return "\n".join(slide_content)
 
 
-def get_snap_block(title, lines, zoom=35, fragment=True, endline=True):
+def get_snap_block(title, lines, fragment=True, endline=True):
     snap_lines = [
         "@snap[north span-100 fragment]" if fragment else "@snap[north span-100]",
         f"### {title}",
-        f"```javascript zoom-{zoom}```"
+        "```javascript```"
     ]
     for line in lines:
         snap_lines.append(line.strip())
@@ -75,8 +75,6 @@ def make_slides():
         "> let a = new String(\"100\");",
         "> a == a",
         "true",
-        "> 100 == a",
-        "true",
         "> a = [];",
         "> a == a",
         "true",
@@ -86,7 +84,7 @@ def make_slides():
         "> a = NaN;",
         "> a == a",
         "false"
-    ], zoom=10))
+    ]))
     return
 
 if __name__ == "__main__":

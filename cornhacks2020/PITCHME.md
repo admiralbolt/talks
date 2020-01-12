@@ -1,73 +1,70 @@
 # Javascript Sucks
 
 ---
+## Probably some stuff about me
 
-## Test
-```javascript zoom-5
-> some_function();
-```
 
 ---
 @snap[north span-100]
 ### Warmup
-```javascript zoom-35```
+```javascript```
 > 100 == 100
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript zoom-35```
-> 100 == 100
-true
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Warmup
-```javascript zoom-35```
+```javascript```
 > 100 == 100
 true
-> 100 == "100"
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript zoom-35```
+```javascript```
 > 100 == 100
 true
 > 100 == "100"
-true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript zoom-35```
+```javascript```
 > 100 == 100
 true
 > 100 == "100"
 true
-> 100 == ["100"]
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript zoom-35```
+```javascript```
 > 100 == 100
 true
 > 100 == "100"
 true
 > 100 == ["100"]
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Warmup
+```javascript```
+> 100 == 100
+true
+> 100 == "100"
+true
+> 100 == ["100"]
 true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript zoom-35```
+```javascript```
 > 100 == 100
 true
 > 100 == "100"
@@ -80,7 +77,7 @@ true
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript zoom-35```
+```javascript```
 > 100 == 100
 true
 > 100 == "100"
@@ -94,77 +91,64 @@ true
 ---
 @snap[north span-100]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript```
 > "asdf" == "asdf"
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
-> "asdf" == "asdf"
-true
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Are things equal to themselves?
-```javascript zoom-35```
+```javascript```
 > "asdf" == "asdf"
 true
-> new String("asdf") == new String("asdf")
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript```
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
-false
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript```
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
 false
-> [] == []
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript```
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
 false
 > [] == []
-false
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript```
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
 false
 > [] == []
 false
-> {} == {}
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript```
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
@@ -172,13 +156,26 @@ false
 > [] == []
 false
 > {} == {}
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript```
+> "asdf" == "asdf"
+true
+> new String("asdf") == new String("asdf")
+false
+> [] == []
+false
+> {} == {}
 false
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript```
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
@@ -193,7 +190,206 @@ false
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-35```
+```javascript```
+> "asdf" == "asdf"
+true
+> new String("asdf") == new String("asdf")
+false
+> [] == []
+false
+> {} == {}
+false
+> NaN == NaN
+false
+```
+@snapend
+---
+@snap[north span-100]
+### Warmup
+```javascript```
+> 100 == 100
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Warmup
+```javascript```
+> 100 == 100
+true
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Warmup
+```javascript```
+> 100 == 100
+true
+> 100 == "100"
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Warmup
+```javascript```
+> 100 == 100
+true
+> 100 == "100"
+true
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Warmup
+```javascript```
+> 100 == 100
+true
+> 100 == "100"
+true
+> 100 == ["100"]
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Warmup
+```javascript```
+> 100 == 100
+true
+> 100 == "100"
+true
+> 100 == ["100"]
+true
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Warmup
+```javascript```
+> 100 == 100
+true
+> 100 == "100"
+true
+> 100 == ["100"]
+true
+> 100 == ["1", "E", "2"].join("")
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Warmup
+```javascript```
+> 100 == 100
+true
+> 100 == "100"
+true
+> 100 == ["100"]
+true
+> 100 == ["1", "E", "2"].join("")
+true
+```
+@snapend
+---
+@snap[north span-100]
+### Are things equal to themselves?
+```javascript```
+> "asdf" == "asdf"
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript```
+> "asdf" == "asdf"
+true
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript```
+> "asdf" == "asdf"
+true
+> new String("asdf") == new String("asdf")
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript```
+> "asdf" == "asdf"
+true
+> new String("asdf") == new String("asdf")
+false
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript```
+> "asdf" == "asdf"
+true
+> new String("asdf") == new String("asdf")
+false
+> [] == []
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript```
+> "asdf" == "asdf"
+true
+> new String("asdf") == new String("asdf")
+false
+> [] == []
+false
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript```
+> "asdf" == "asdf"
+true
+> new String("asdf") == new String("asdf")
+false
+> [] == []
+false
+> {} == {}
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript```
+> "asdf" == "asdf"
+true
+> new String("asdf") == new String("asdf")
+false
+> [] == []
+false
+> {} == {}
+false
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript```
+> "asdf" == "asdf"
+true
+> new String("asdf") == new String("asdf")
+false
+> [] == []
+false
+> {} == {}
+false
+> NaN == NaN
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```javascript```
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
@@ -209,14 +405,14 @@ false
 ---
 @snap[north span-100]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
 ```
@@ -224,7 +420,7 @@ false
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
 true
@@ -233,32 +429,9 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
-true
-> 100 == a
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Are things equal to themselves?
-```javascript zoom-10```
-> let a = new String("100");
-> a == a
-true
-> 100 == a
-true
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Are things equal to themselves?
-```javascript zoom-10```
-> let a = new String("100");
-> a == a
-true
-> 100 == a
 true
 > a = [];
 ```
@@ -266,11 +439,9 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
-true
-> 100 == a
 true
 > a = [];
 > a == a
@@ -279,11 +450,9 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
-true
-> 100 == a
 true
 > a = [];
 > a == a
@@ -293,11 +462,9 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
-true
-> 100 == a
 true
 > a = [];
 > a == a
@@ -308,11 +475,9 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
-true
-> 100 == a
 true
 > a = [];
 > a == a
@@ -324,11 +489,9 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
-true
-> 100 == a
 true
 > a = [];
 > a == a
@@ -341,11 +504,9 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
-true
-> 100 == a
 true
 > a = [];
 > a == a
@@ -359,11 +520,9 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
-true
-> 100 == a
 true
 > a = [];
 > a == a
@@ -378,11 +537,9 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript zoom-10```
+```javascript```
 > let a = new String("100");
 > a == a
-true
-> 100 == a
 true
 > a = [];
 > a == a
