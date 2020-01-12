@@ -86,7 +86,7 @@ def make_slides():
         "> a = NaN;",
         "> a == a",
         "false"
-    ], zoom=30))
+    ], zoom=20))
     return
 
 if __name__ == "__main__":
