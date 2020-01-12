@@ -8,7 +8,7 @@
 
 ---
 
-@snap[north span-100]
+@snap[north span-100 fragment]
 ### JS
 ```javascript zoom-35
 > 1 == 1
@@ -22,5 +22,3 @@
 true
 ```
 @snapend
-
-
