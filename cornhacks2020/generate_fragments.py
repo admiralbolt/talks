@@ -29,11 +29,11 @@ def fragmentize(title, lines, zoom=35):
     """
     slide_content = []
     for i in range(len(lines)):
-        slide_content.extend(get_snap_block(title, lines[:i+1], zoom, fragment=(i != 0)))
+        slide_content.extend(get_snap_block(title, lines[:i+1], zoom, fragment=(i != 0), endline=(i != len(lines) - 1)))
     return "\n".join(slide_content)
 
 
-def get_snap_block(title, lines, zoom=35, fragment=True):
+def get_snap_block(title, lines, zoom=35, fragment=True, endline=True):
     snap_lines = [
         "@snap[north span-100 fragment]" if fragment else "@snap[north span-100]",
         f"### {title}",
@@ -41,7 +41,9 @@ def get_snap_block(title, lines, zoom=35, fragment=True):
     ]
     for line in lines:
         snap_lines.append(line.strip())
-    snap_lines.extend(["```", "@snapend", ""])
+    snap_lines.extend(["```", "@snapend"])
+    if endline:
+        snap_lines.append("")
     return snap_lines
 
 def make_slides():
@@ -54,6 +56,36 @@ def make_slides():
         "true",
         "> 100 == [\"1\", \"E\", \"2\"].join(\"\")",
         "true"
+    ]))
+    print("---")
+    print(fragmentize("Are things equal to themselves?", [
+        "> \"asdf\" == \"asdf\"",
+        "true",
+        "> new String(\"asdf\") == new String(\"asdf\")",
+        "false",
+        "> [] == []",
+        "false",
+        "> {} == {}",
+        "false",
+        "> NaN == NaN",
+        "false"
+    ]))
+    print("---")
+    print(fragmentize("Are things equal to themselves?", [
+        "> let a = new String(\"100\");",
+        "> a == a",
+        "true",
+        "> 100 == a",
+        "true",
+        "> a = [];",
+        "> a == a",
+        "true",
+        "> a = {};",
+        "> a == a",
+        "true",
+        "> a = NaN;",
+        "> a == a",
+        "false"
     ]))
     return
 
