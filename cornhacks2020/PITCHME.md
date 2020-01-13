@@ -1099,17 +1099,17 @@ undefined
 ### The year is 1995
 @snapend
 
-@snap[west span-33 fragment]
+@snap[west span-33 fragment text-center]
 ![Netscape Communicator](/cornhacks2020/assets/images/netscape.png)
 Netscape Communicator, the most popular browser at the time.
 @snapend
 
-@snap[midpoint span-33 fragment]
+@snap[midpoint span-33 fragment text-center]
 ![Marc Andreessen](/cornhacks2020/assets/images/marc_andreessen.jpeg)
 Marc Andreessen, founder of Netscape.
 @snapend
 
-@snap[east span-33 fragment]
+@snap[east span-33 fragment text-center]
 ![Sun](/cornhacks2020/assets/images/sun_microsystems.png)
 Sun is already working with Netscape.
 @snapend
@@ -1118,17 +1118,17 @@ Sun is already working with Netscape.
 ### Mocha
 @snapend
 
-@snap[west span-33 fragment]
+@snap[west span-33 fragment text-center]
 ![Mocha](/cornhacks2020/assets/images/mocha.jpg)
 Mocha was born!
 @snapend
 
-@snap[midpoint span-33 fragment]
+@snap[midpoint span-33 fragment text-center]
 ![Brendan Eich](/cornhacks2020/assets/images/brendan_eich.jpg)
 Created by Brendan Eich in 10 days.
 @snapend
 
-@snap[east span-33 fragment]
+@snap[east span-33 fragment text-center]
 ![Javascript](/cornhacks2020/assets/images/javascript.jpg)
 Eventually renamed to Javascript due to licensing with Sun.
 @snapend
