@@ -62,6 +62,7 @@ Currently working for Travefy.
 ### Rules of Engagement
 1. I'm going to show you some js code, you tell me what you think it evaluates.
 2. All code samples were run in a node console.
+3. You may get different results depending on where you run.
 @snapend
 ---
 @snap[north span-100]
