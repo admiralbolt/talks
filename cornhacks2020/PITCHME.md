@@ -17,13 +17,6 @@
 ![Ember](/cornhacks2020/assets/images/ember.png)
 @snapend
 
-@snap[west span-45  ]
-@box[rounded text-white bg-blue box-padding](Popularity# Javascript has been the most popular language for the past 6 consecutive years.)
-@snapend
-
-@snap[east span-45]
-@box[rounded text-white bg-blue box-padding](NPM# NPM has 1.1 million packages.)
-@snapend
 ---
 @snap[north span-100]
 ### The Year is 2025
