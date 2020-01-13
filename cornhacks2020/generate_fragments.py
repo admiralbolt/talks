@@ -106,6 +106,22 @@ def make_slides():
         "true"
     ]))
     print("---")
+    print(fragmentize("Fun with objects", [
+        "> let a = {}",
+        "> a[[]] = \"yes\"",
+        "> a[\"\"]",
+        "\"yes\"",
+        "> a[[1, 2, 3]] = 5",
+        "> a[\"1, 2, 3\"]",
+        "5",
+        "> a[{}] = 3",
+        "> a[{b: 1}]",
+        "3",
+        "> a[a] = a",
+        "> a[{\"was\": \"this\"}][{\"a\": \"mistake?\"}][[]]",
+        "\"yes\""
+    ]))
+    print("---")
     print(fragmentize("Wat", [
         "> [] + []",
         "\"\"",

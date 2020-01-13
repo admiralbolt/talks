@@ -496,6 +496,175 @@ true
 @snapend
 ---
 @snap[north span-100]
+### Fun with objects
+```js
+> let a = {}
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+"yes"
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+"yes"
+> a[[1, 2, 3]] = 5
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+"yes"
+> a[[1, 2, 3]] = 5
+> a["1, 2, 3"]
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+"yes"
+> a[[1, 2, 3]] = 5
+> a["1, 2, 3"]
+5
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+"yes"
+> a[[1, 2, 3]] = 5
+> a["1, 2, 3"]
+5
+> a[{}] = 3
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+"yes"
+> a[[1, 2, 3]] = 5
+> a["1, 2, 3"]
+5
+> a[{}] = 3
+> a[{b: 1}]
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+"yes"
+> a[[1, 2, 3]] = 5
+> a["1, 2, 3"]
+5
+> a[{}] = 3
+> a[{b: 1}]
+3
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+"yes"
+> a[[1, 2, 3]] = 5
+> a["1, 2, 3"]
+5
+> a[{}] = 3
+> a[{b: 1}]
+3
+> a[a] = a
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+"yes"
+> a[[1, 2, 3]] = 5
+> a["1, 2, 3"]
+5
+> a[{}] = 3
+> a[{b: 1}]
+3
+> a[a] = a
+> a[{"was": "this"}][{"a": "mistake?"}][[]]
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Fun with objects
+```js
+> let a = {}
+> a[[]] = "yes"
+> a[""]
+"yes"
+> a[[1, 2, 3]] = 5
+> a["1, 2, 3"]
+5
+> a[{}] = 3
+> a[{b: 1}]
+3
+> a[a] = a
+> a[{"was": "this"}][{"a": "mistake?"}][[]]
+"yes"
+```
+@snapend
+---
+@snap[north span-100]
 ### Wat
 ```js
 > [] + []
