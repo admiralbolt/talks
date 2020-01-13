@@ -1,9 +1,3 @@
-# Javascript Sucks
-
----
-## Probably some stuff about me
-
----
 @snap[north span-100 actually-white]
 ### The Year is 2020
 
@@ -37,17 +31,18 @@
 ---
 @snap[north span-100]
 ### The Year is 2030
+
+@css[fragment](Javascript is the **only** language run on most machines)
+@css[fragment](NodeOS becomes the most popular operating system.)
+@css[fragment](How did things get like this?)
 @snapend
-
-1. Javascript is the only language run on most machines.
-    NodeOS becomes the most popular operating system. Most code written and run
-    is javascript.
 ---
-### How did it get like this?
-
-
-
+Javascript Sucks
 ---
+## Probably some stuff about me
+---
+
+
 @snap[north span-100]
 ### Warmup
 ```js
