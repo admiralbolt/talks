@@ -44,12 +44,14 @@
 
 Graduated UNL in 2017.
 
-Worked for Google as a Software Engineer for two years.
+Worked for Google for two years.
 
-Moved back to Lincoln and am currently working for Travefy.
+Currently working for Travefy
 
-@fa[github] https://github.com/admiralbolt
-@fa[linkedin] https://www.linkedin.com/in/aviknecht/
+@snap[south text-left]
+  @fa[github] https://github.com/admiralbolt
+  @fa[linkedin] https://www.linkedin.com/in/aviknecht/
+@snapend
 
 
 @snapend
