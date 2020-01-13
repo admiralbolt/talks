@@ -4,7 +4,7 @@
 ## Probably some stuff about me
 
 ---
-@snap[north span-100 text-white]
+@snap[north span-100 actually-white]
 ### The Year is 2020
 @snapend
 
