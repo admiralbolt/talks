@@ -40,24 +40,24 @@
 # Javascript Sucks
 ---
 @snap[north span-100]
-  ## About Me
+## About Me
 
-  Graduated UNL in 2017.
+Graduated UNL in 2017.
 
-  Worked for Google for two years.
+Worked for Google for two years.
 
-  Currently working for Travefy
+Currently working for Travefy
 @snapend
 
 @snap[south span-100 text-left]
-  @fa[github] https://github.com/admiralbolt
-  @fa[linkedin] https://www.linkedin.com/in/aviknecht/
+@fa[github] https://github.com/admiralbolt
+@fa[linkedin] https://www.linkedin.com/in/aviknecht/
 @snapend
 ---
 @snap[north span-100]
-  ### What I'm going to talk about
-  1. Convince you that javascript is a terrible language.
-  2. Talk about how it managed to become so popular despite being awful.
+### What I'm going to talk about
+1. Convince you that javascript is a terrible language.
+2. Talk about how it managed to become so popular despite being awful.
 @snapend
 ---
 @snap[north span-100]
