@@ -1089,19 +1089,30 @@ undefined
 ```
 @snapend
 ---
+### What makes a language "bad"?
+---
+@snap[north span-100]
+### The year is 1995
+
+
+
 
 ---
 @snap[north span-100]
 ### Sources
 
+[Brendan Eich's Blog](https://brendaneich.com)
 [What the Javascript](https://www.youtube.com/watch?v=2pL28CcEijU&feature=youtu.be) by Kyle Simpson
 [Wat](https://www.destroyallsoftware.com/talks/wat) by Gary Bernhardt
 [The Birth & Death of Javascript](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript) by Gary Bernhardt
 [A Brief History of Javascript](https://auth0.com/blog/a-brief-history-of-javascript/) by Sebastian Peyrott
 [An Introduction to Javascript](https://www.youtube.com/watch?v=1EyRscXrehw) by Brendan Eich
+[The Javascript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M) by Douglass Crockfod
+
 
 https://gist.github.com/MichalZalecki/c964192f830360ce6361
 https://wtfjs.com/
 http://www.bradoncode.com/blog/2015/08/26/javascript-semi-colon-insertion/
+[Interview with Brendan Eich](https://www.infoworld.com/article/2653798/javascript-creator-ponders-past--future.html)
 @snapend
 ---
