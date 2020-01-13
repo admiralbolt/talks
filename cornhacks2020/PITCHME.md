@@ -55,11 +55,17 @@
 @snapend
 ---
 @snap[north span-100]
+  ### What I'm going to talk about
+  1. Convince you that javascript is a terrible language.
+  2. Talk about how it managed to become so popular despite being awful.
+@snapend
+---
+@snap[north span-100]
 ### Rules of Engagement
 
 
 
-
+---
 @snap[north span-100]
 ### Warmup
 ```js
