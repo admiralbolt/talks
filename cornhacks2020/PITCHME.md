@@ -16,7 +16,7 @@
 @snap[north span-100]
 ### The Year is 2025
 
-@css[fragment](Javascript is the **only** language used by a majority of developers.)
+@css[fragment](Javascript was the **only** language used by a majority of developers.)
 
 @snap[fragment]
 ![Electron](/cornhacks2020/assets/images/electron.png)
@@ -25,7 +25,7 @@
 @snapend
 
 @snap[span-100]
-@css[fragment](Google finally released its much anticipated 3rd rewrite of Angular:)
+@css[fragment](Google finally released its highly anticipated 3rd rewrite of Angular:)
 @css[fragment](Angular 2)
 @css[fragment](The last bastions of hope for programming were kernels still written in C/C++.)
 @snapend
@@ -35,7 +35,10 @@
 
 @css[fragment](Javascript is the **only** language run on most machines)
 @css[fragment](NodeOS becomes the most popular operating system.)
-@css[fragment](How did things get like this?)
+@snapend
+
+@snap[midpoint]
+###How did things get like this?
 @snapend
 ---
 Javascript Sucks
