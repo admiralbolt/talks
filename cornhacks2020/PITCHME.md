@@ -1124,12 +1124,12 @@ Mocha was born!
 @snapend
 
 @snap[midpoint span-33 fragment]
-![Brendan Eich](/cornhacks2020/assets/images/brendan_eich.png)
+![Brendan Eich](/cornhacks2020/assets/images/brendan_eich.jpg)
 Created by Brendan Eich in 10 days.
 @snapend
 
 @snap[east span-33 fragment]
-![Javascript](/cornhacks2020/assets/images/javascript.png)
+![Javascript](/cornhacks2020/assets/images/javascript.jpg)
 Eventually renamed to Javascript due to licensing with Sun.
 @snapend
 
