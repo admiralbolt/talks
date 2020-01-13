@@ -1104,6 +1104,9 @@ The most popular browser is Netscape Communicator
 Marc Andreessen
 ![Marc Andreessen](/cornhacks2020/assets/images/marc_andreessen.jpg)
 
+Sun
+![Sun](/cornhacks2020/assets/images/sun_microsystems.png)
+
 
 ---
 @snap[north span-100]
