@@ -22,15 +22,18 @@
 @snap[north span-100]
 ### The Year is 2025
 
-@css[fragment](Javascript is the *only* language used by a majority of developers.)
+@css[fragment](Javascript is the **only** language used by a majority of developers.)
+@snapend
+
 @snap[fragment]
 ![Electron](/cornhacks2020/assets/images/electron.png)
 ![Ionic](/cornhacks2020/assets/images/ionic.png)
 @snapend
+
+@snap[span-100]
 @css[fragment](Google finally releases its much anticipated 3rd rewrite of Angular:)
 @css[fragment](Angular 2)
 @css[fragment](The last bastion of hope for programming are kernels still written in C/C++.)
-
 @snapend
 ---
 @snap[north span-100]
