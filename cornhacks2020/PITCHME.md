@@ -9,15 +9,15 @@
 @snapend
 
 @snap[west span-32 fragment]
-@box[rounded text-white bg-teal box-padding](Popularity# Javascript has been the most popular language for the past 6 consecutive years.)
+@box[rounded text-white bg-blue box-padding](Popularity# Javascript has been the most popular language for the past 6 consecutive years.)
 @snapend
 
-@snap[center span-32 fragment]
-@box[rounded text-white bg-teal box-padding](Numbers# NPM has 1.1 million packages)
+@snap[midpoint span-32 fragment]
+@box[rounded text-white bg-blue box-padding](Numbers# NPM has 1.1 million packages)
 @snapened
 
 @snap[east span-32 fragment]
-@box[rounded text-white bg-teal box-padding](Frameworks# The most popular front-end frameworks ar React, Vue, Angular, and Ember)
+@box[rounded text-white bg-blue box-padding](Frameworks# The most popular front-end frameworks ar React, Vue, Angular, and Ember)
 @snapend
 ---
 @snap[north span-100]
