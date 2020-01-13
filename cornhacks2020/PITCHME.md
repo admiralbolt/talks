@@ -13,7 +13,7 @@
 @snapend
 
 ---
-@snap[north span-100]
+@snap[north span-100 actually-white]
 ### The Year is 2025
 
 @css[fragment](Javascript was the **only** language used by a majority of developers.)
@@ -30,7 +30,7 @@
 @css[fragment](The last bastions of hope for programming were kernels still written in C/C++.)
 @snapend
 ---
-@snap[north span-100]
+@snap[north span-100 actually-white]
 ### The Year is 2030
 
 @css[fragment](Javascript is the **only** language run on most machines)
@@ -39,7 +39,7 @@
 ---
 # Javascript Sucks
 ---
-@snap[north span-100]
+@snap[north span-100 actually-white]
 ## About Me
 
 Graduated UNL in 2017.
@@ -54,17 +54,16 @@ Currently working for Travefy
 @fa[linkedin] https://www.linkedin.com/in/aviknecht/
 @snapend
 ---
-@snap[north span-100 text-white]
+@snap[north span-100 text-white actually-white]
 ### What I'm going to talk about
 1. Convince you that javascript is a terrible language.
 2. Talk about how it managed to become so popular despite being awful.
 @snapend
 ---
-@snap[north span-100]
+@snap[north span-100 actually-white]
 ### Rules of Engagement
-
-
-
+1. I'm going to show you some js code, you tell me what you think it evaluates.
+2. All code samples were run in a node console.
 ---
 @snap[north span-100]
 ### Warmup
