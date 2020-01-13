@@ -37,11 +37,11 @@
 @css[fragment](NodeOS becomes the most popular operating system.)
 @snapend
 
-@snap[midpoint]
-###How did things get like this?
+@snap[midpoint fragment]
+### How did things get like this?
 @snapend
 ---
-Javascript Sucks
+# Javascript Sucks
 ---
 ## Probably some stuff about me
 ---
