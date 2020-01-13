@@ -23,7 +23,6 @@
 ### The Year is 2025
 
 @css[fragment](Javascript is the **only** language used by a majority of developers.)
-@snapend
 
 @snap[fragment]
 ![Electron](/cornhacks2020/assets/images/electron.png)
