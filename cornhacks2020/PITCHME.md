@@ -40,13 +40,11 @@
 # Javascript Sucks
 ---
 @snap[north span-100 actually-white]
-## About Me
+### About Me
 
 Graduated UNL in 2017.
-
 Worked for Google for two years.
-
-Currently working for Travefy
+Currently working for Travefy.
 @snapend
 
 @snap[south span-100 text-left]
