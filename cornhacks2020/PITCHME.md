@@ -515,7 +515,7 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
+> Object.keys(a)
 ```
 @snapend
 
@@ -524,8 +524,8 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
-"yes"
+> Object.keys(a)
+[""]
 ```
 @snapend
 
@@ -534,8 +534,8 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
-"yes"
+> Object.keys(a)
+[""]
 > a[[1, 2, 3]] = 5
 ```
 @snapend
@@ -545,10 +545,10 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
-"yes"
+> Object.keys(a)
+[""]
 > a[[1, 2, 3]] = 5
-> a["1, 2, 3"]
+> Object.keys(a)
 ```
 @snapend
 
@@ -557,11 +557,11 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
-"yes"
+> Object.keys(a)
+[""]
 > a[[1, 2, 3]] = 5
-> a["1, 2, 3"]
-5
+> Object.keys(a)
+["", "1, 2, 3"]
 ```
 @snapend
 
@@ -570,11 +570,11 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
-"yes"
+> Object.keys(a)
+[""]
 > a[[1, 2, 3]] = 5
-> a["1, 2, 3"]
-5
+> Object.keys(a)
+["", "1, 2, 3"]
 > a[{}] = 3
 ```
 @snapend
@@ -584,11 +584,11 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
-"yes"
+> Object.keys(a)
+[""]
 > a[[1, 2, 3]] = 5
-> a["1, 2, 3"]
-5
+> Object.keys(a)
+["", "1, 2, 3"]
 > a[{}] = 3
 > a[{b: 1}]
 ```
@@ -599,11 +599,11 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
-"yes"
+> Object.keys(a)
+[""]
 > a[[1, 2, 3]] = 5
-> a["1, 2, 3"]
-5
+> Object.keys(a)
+["", "1, 2, 3"]
 > a[{}] = 3
 > a[{b: 1}]
 3
@@ -615,11 +615,11 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
-"yes"
+> Object.keys(a)
+[""]
 > a[[1, 2, 3]] = 5
-> a["1, 2, 3"]
-5
+> Object.keys(a)
+["", "1, 2, 3"]
 > a[{}] = 3
 > a[{b: 1}]
 3
@@ -632,11 +632,11 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
-"yes"
+> Object.keys(a)
+[""]
 > a[[1, 2, 3]] = 5
-> a["1, 2, 3"]
-5
+> Object.keys(a)
+["", "1, 2, 3"]
 > a[{}] = 3
 > a[{b: 1}]
 3
@@ -650,11 +650,11 @@ true
 ```js
 > let a = {}
 > a[[]] = "yes"
-> a[""]
-"yes"
+> Object.keys(a)
+[""]
 > a[[1, 2, 3]] = 5
-> a["1, 2, 3"]
-5
+> Object.keys(a)
+["", "1, 2, 3"]
 > a[{}] = 3
 > a[{b: 1}]
 3
