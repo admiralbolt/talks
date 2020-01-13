@@ -34,14 +34,10 @@
 ### The Year is 2030
 
 @css[fragment](Javascript is the **only** language run on most machines)
-@css[fragment](NodeOS becomes the most popular operating system.)
-@snapend
-
-@snap[south span-100 fragment]
-### How did things get like this?
+@css[fragment](NodeOS became the most popular operating system.)
 @snapend
 ---
-# Javascript Sucks
+## The history of Javascript, and why it's a terrible language.
 ---
 ## Probably some stuff about me
 ---
