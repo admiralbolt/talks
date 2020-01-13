@@ -1088,3 +1088,20 @@ SyntaxError: Invalid or unexpected token
 undefined
 ```
 @snapend
+---
+
+---
+@snap[north span-100]
+### Sources
+
+[What the Javascript](https://www.youtube.com/watch?v=2pL28CcEijU&feature=youtu.be) by Kyle Simpson
+[Wat](https://www.destroyallsoftware.com/talks/wat) by Gary Bernhardt
+[The Birth & Death of Javascript](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript) by Gary Bernhardt
+[A Brief History of Javascript](https://auth0.com/blog/a-brief-history-of-javascript/) by Sebastian Peyrott
+[An Introduction to Javascript](https://www.youtube.com/watch?v=1EyRscXrehw) by Brendan Eich
+
+https://gist.github.com/MichalZalecki/c964192f830360ce6361
+https://wtfjs.com/
+http://www.bradoncode.com/blog/2015/08/26/javascript-semi-colon-insertion/
+@snapend
+---
