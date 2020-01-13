@@ -3,6 +3,38 @@
 ---
 ## Probably some stuff about me
 
+---
+@snap[north span-100]
+### The Year is 2020
+@snapend
+
+1. Javascript has been the most popular programming language (according to a
+  Stack Overflow survey) for the past 6 consecutive years.
+2. NPM has 1,175,196 packages.
+3. Frameworks like React, Vue, Angular, and Ember are the most popular.
+---
+@snap[north span-100]
+### The Year is 2025
+@snapend
+
+1. Javascript is the only language used by a majority of developers.
+  * All mobile apps are written in Ionic.
+  * All desktop apps are written in Electron.
+  * More and more servers become written in nodejs.
+2. Dynamic typescript is the most popular language that transpiles to js.
+3. The last bastion of hope for programming is kernels, still written in C/C++.
+---
+@snap[north span-100]
+### The Year is 2030
+@snapend
+
+1. Javascript is the only language run on most machines.
+    NodeOS becomes the most popular operating system. Most code written and run
+    is javascript.
+---
+### How did it get like this?
+
+
 
 ---
 @snap[north span-100]
