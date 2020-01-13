@@ -1089,13 +1089,17 @@ undefined
 ```
 @snapend
 ---
-### What makes a language "bad"?
+### Is Javascript a "bad" language?
+---
+### Yeah it sucks.
+---
+### How is a language so bad so popular?
 ---
 @snap[north span-100]
 ### The year is 1995
 
-
-
+The most popular browser is Netscape Communicator
+![Netscape Communicator](/cornhacks2020/assets/images/netscape.jpg)
 
 ---
 @snap[north span-100]
