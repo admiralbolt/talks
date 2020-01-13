@@ -4,7 +4,7 @@
 ## Probably some stuff about me
 
 ---
-@snap[north span-100]
+@snap[north span-100 text-white]
 ### The Year is 2020
 @snapend
 
@@ -14,7 +14,7 @@
 
 @snap[midpoint span-32 fragment]
 @box[rounded text-white bg-blue box-padding](Numbers# NPM has 1.1 million packages)
-@snapened
+@snapend
 
 @snap[east span-32 fragment]
 @box[rounded text-white bg-blue box-padding](Frameworks# The most popular front-end frameworks ar React, Vue, Angular, and Ember)
