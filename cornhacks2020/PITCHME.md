@@ -8,10 +8,17 @@
 ### The Year is 2020
 @snapend
 
-1. Javascript has been the most popular programming language (according to a
-  Stack Overflow survey) for the past 6 consecutive years.
-2. NPM has 1,175,196 packages.
-3. Frameworks like React, Vue, Angular, and Ember are the most popular.
+@snap[south-west span-32 fragment]
+@box[rounded text-white](Popularity# Javascript has been the most popular language for the past 6 consecutive years.)
+@snapend
+
+@snap[south span-32 fragment]
+@box[rounded text-white](Numbers# NPM has 1.1 million packages)
+@snapened
+
+@snap[south-east span-32 fragment]
+@box[rounded text-white](Frameworks# The most popular front-end frameworks ar React, Vue, Angular, and Ember)
+@snapend
 ---
 @snap[north span-100]
 ### The Year is 2025
