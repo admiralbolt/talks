@@ -1097,15 +1097,22 @@ undefined
 ---
 @snap[north span-100]
 ### The year is 1995
+@snapend
 
+@snap[north-west span-33]
 The most popular browser is Netscape Communicator
 ![Netscape Communicator](/cornhacks2020/assets/images/netscape.png)
+@spanend
 
+@snap[north span-33]
 Marc Andreessen
-![Marc Andreessen](/cornhacks2020/assets/images/marc_andreessen.jpg)
+![Marc Andreessen](/cornhacks2020/assets/images/marc_andreessen.jpeg)
+@snapend
 
+@snap[north-east span-33]
 Sun
 ![Sun](/cornhacks2020/assets/images/sun_microsystems.png)
+@snapend
 
 
 ---
