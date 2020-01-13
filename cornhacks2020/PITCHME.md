@@ -8,21 +8,37 @@
 ### The Year is 2020
 @snapend
 
-@snap[west span-32 fragment]
+@css[fragment](Javascript has been the most popular language for the past 6 consecutive years.)
+@css[fragment](NPM currently has 1.1 million packages)
+@snap[south span-100 fragment]
+![React](/cornhacks2020/assets/images/react.png)
+![Angular](/cornhacks2020/assets/images/angular.png)
+![Vue](/cornhacks2020/assets/images/angular.png)
+![Ember](/cornhacks2020/assets/images/ember.png)
+@snapend
+
+@snap[west span-45  ]
 @box[rounded text-white bg-blue box-padding](Popularity# Javascript has been the most popular language for the past 6 consecutive years.)
 @snapend
 
-@snap[midpoint span-32 fragment]
-@box[rounded text-white bg-blue box-padding](Numbers# NPM has 1.1 million packages)
-@snapend
-
-@snap[east span-32 fragment]
-@box[rounded text-white bg-blue box-padding](Frameworks# The most popular front-end frameworks ar React, Vue, Angular, and Ember)
+@snap[east span-45]
+@box[rounded text-white bg-blue box-padding](NPM# NPM has 1.1 million packages.)
 @snapend
 ---
 @snap[north span-100]
 ### The Year is 2025
 @snapend
+
+@snap[west span-45 fragment]
+@box[rounded text-white bg-blue box-padding](Popularity# Javascript is the *only* language used by a majority of developers.)
+@snapend
+
+@snap[midpoint span-33 fragment]
+@box[rounded text-white bg-blue box-padding](Numbers# NPM hits 1 billion packages, but still regularly breaks.)
+@snapend
+
+@snap[midpoint span-33 fragment]
+@box[rounded text-white bg-blue box-padding](Frameworks#
 
 1. Javascript is the only language used by a majority of developers.
   * All mobile apps are written in Ionic.
