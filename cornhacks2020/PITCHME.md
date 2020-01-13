@@ -49,7 +49,7 @@
   Currently working for Travefy
 @snapend
 
-@snap[south text-left]
+@snap[south span-100 text-left]
   @fa[github] https://github.com/admiralbolt
   @fa[linkedin] https://www.linkedin.com/in/aviknecht/
 @snapend
