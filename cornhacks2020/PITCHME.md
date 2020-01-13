@@ -14,7 +14,7 @@
 @snap[south span-100 fragment]
 ![React](/cornhacks2020/assets/images/react.png)
 ![Angular](/cornhacks2020/assets/images/angular.png)
-![Vue](/cornhacks2020/assets/images/angular.png)
+![Vue](/cornhacks2020/assets/images/vue.png)
 ![Ember](/cornhacks2020/assets/images/ember.png)
 @snapend
 
