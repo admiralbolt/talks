@@ -37,10 +37,27 @@
 @css[fragment](NodeOS became the most popular operating system.)
 @snapend
 ---
-## The history of Javascript, and why it's a terrible language.
+# Javascript Sucks
 ---
-## Probably some stuff about me
+@snap[north span-100]
+## About Me
+
+Graduated UNL in 2017.
+
+Worked for Google as a Software Engineer for two years.
+
+Moved back to Lincoln and am currently working for Travefy.
+
+@fa[github] https://github.com/admiralbolt
+@fa[linkedin] https://www.linkedin.com/in/aviknecht/
+
+
+@snapend
 ---
+@snap[north span-100]
+### Rules of Engagement
+
+
 
 
 @snap[north span-100]
