@@ -2,6 +2,6 @@
   font-size: 2.2rem;
 }
 
-.actually-white {
-  color: #ffffff;
+.actually-white h3 {
+  color: #ffffff !important;
 }
