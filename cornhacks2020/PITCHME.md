@@ -1099,7 +1099,11 @@ undefined
 ### The year is 1995
 
 The most popular browser is Netscape Communicator
-![Netscape Communicator](/cornhacks2020/assets/images/netscape.jpg)
+![Netscape Communicator](/cornhacks2020/assets/images/netscape.png)
+
+Marc Andreessen
+![Marc Andreessen](/cornhacks2020/assets/images/marc_andreessen.jpg)
+
 
 ---
 @snap[north span-100]
