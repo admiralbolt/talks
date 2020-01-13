@@ -3,13 +3,14 @@
 
 @css[fragment](Javascript had been the most popular language for the past 6 consecutive years.)
 @css[fragment](As of January, NPM had 1.1 million packages)
-@snapend
 
-@snap[south span-100 fragment]
+@snap[fragment]
 ![React](/cornhacks2020/assets/images/react.png)
 ![Angular](/cornhacks2020/assets/images/angular.png)
 ![Vue](/cornhacks2020/assets/images/vue.png)
 ![Ember](/cornhacks2020/assets/images/ember.png)
+@snapend
+
 @snapend
 
 ---
