@@ -8,15 +8,15 @@
 ### The Year is 2020
 @snapend
 
-@snap[south-west span-32 fragment]
-@box[rounded text-white](Popularity# Javascript has been the most popular language for the past 6 consecutive years.)
+@snap[west span-32 fragment]
+@box[rounded text-white bg-blue box-padding](Popularity# Javascript has been the most popular language for the past 6 consecutive years.)
 @snapend
 
-@snap[south span-32 fragment]
+@snap[center span-32 fragment]
 @box[rounded text-white](Numbers# NPM has 1.1 million packages)
 @snapened
 
-@snap[south-east span-32 fragment]
+@snap[east span-32 fragment]
 @box[rounded text-white](Frameworks# The most popular front-end frameworks ar React, Vue, Angular, and Ember)
 @snapend
 ---
