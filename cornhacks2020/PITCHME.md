@@ -21,25 +21,17 @@
 ---
 @snap[north span-100]
 ### The Year is 2025
+
+@css[fragment](Javascript is the *only* language used by a majority of developers.)
+@snap[fragment]
+![Electron](/cornhacks2020/assets/images/electron.png)
+![Ionic](/cornhacks2020/assets/images/ionic.png)
 @snapend
+@css[fragment](Google finally releases its much anticipated 3rd rewrite of Angular:)
+@css[fragment](Angular 2)
+@css[fragment](The last bastion of hope for programming are kernels still written in C/C++.)
 
-@snap[west span-45 fragment]
-@box[rounded text-white bg-blue box-padding](Popularity# Javascript is the *only* language used by a majority of developers.)
 @snapend
-
-@snap[midpoint span-33 fragment]
-@box[rounded text-white bg-blue box-padding](Numbers# NPM hits 1 billion packages, but still regularly breaks.)
-@snapend
-
-@snap[midpoint span-33 fragment]
-@box[rounded text-white bg-blue box-padding](Frameworks#
-
-1. Javascript is the only language used by a majority of developers.
-  * All mobile apps are written in Ionic.
-  * All desktop apps are written in Electron.
-  * More and more servers become written in nodejs.
-2. Dynamic typescript is the most popular language that transpiles to js.
-3. The last bastion of hope for programming is kernels, still written in C/C++.
 ---
 @snap[north span-100]
 ### The Year is 2030
