@@ -40,20 +40,18 @@
 # Javascript Sucks
 ---
 @snap[north span-100]
-## About Me
+  ## About Me
 
-Graduated UNL in 2017.
+  Graduated UNL in 2017.
 
-Worked for Google for two years.
+  Worked for Google for two years.
 
-Currently working for Travefy
+  Currently working for Travefy
+@snapend
 
 @snap[south text-left]
   @fa[github] https://github.com/admiralbolt
   @fa[linkedin] https://www.linkedin.com/in/aviknecht/
-@snapend
-
-
 @snapend
 ---
 @snap[north span-100]
