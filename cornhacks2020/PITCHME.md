@@ -1,8 +1,8 @@
 @snap[north span-100 actually-white]
 ### The Year is 2020
 
-@css[fragment](Javascript has been the most popular language for the past 6 consecutive years.)
-@css[fragment](NPM currently has 1.1 million packages)
+@css[fragment](Javascript had been the most popular language for the past 6 consecutive years.)
+@css[fragment](As of January, NPM had 1.1 million packages)
 @snapend
 
 @snap[south span-100 fragment]
@@ -21,12 +21,13 @@
 @snap[fragment]
 ![Electron](/cornhacks2020/assets/images/electron.png)
 ![Ionic](/cornhacks2020/assets/images/ionic.png)
+![NodeJs](/cornhacks2020/assets/images/nodejs.png)
 @snapend
 
 @snap[span-100]
-@css[fragment](Google finally releases its much anticipated 3rd rewrite of Angular:)
+@css[fragment](Google finally released its much anticipated 3rd rewrite of Angular:)
 @css[fragment](Angular 2)
-@css[fragment](The last bastion of hope for programming are kernels still written in C/C++.)
+@css[fragment](The last bastions of hope for programming were kernels still written in C/C++.)
 @snapend
 ---
 @snap[north span-100]
