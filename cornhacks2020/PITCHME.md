@@ -1099,19 +1099,19 @@ undefined
 ### The year is 1995
 @snapend
 
-@snap[north-west span-33]
-The most popular browser is Netscape Communicator
+@snap[west span-33]
 ![Netscape Communicator](/cornhacks2020/assets/images/netscape.png)
-@spanend
-
-@snap[north span-33]
-Marc Andreessen
-![Marc Andreessen](/cornhacks2020/assets/images/marc_andreessen.jpeg)
+Netscape Communicator, the most popular browser at the time.
 @snapend
 
-@snap[north-east span-33]
-Sun
+@snap[midpoint span-33]
+![Marc Andreessen](/cornhacks2020/assets/images/marc_andreessen.jpeg)
+Marc Andreessen, founder of Netscape.
+@snapend
+
+@snap[east span-33]
 ![Sun](/cornhacks2020/assets/images/sun_microsystems.png)
+Sun Microsystems
 @snapend
 
 
