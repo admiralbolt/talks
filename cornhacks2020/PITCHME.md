@@ -37,7 +37,7 @@
 @css[fragment](NodeOS becomes the most popular operating system.)
 @snapend
 
-@snap[midpoint fragment]
+@snap[south span-100 fragment]
 ### How did things get like this?
 @snapend
 ---
