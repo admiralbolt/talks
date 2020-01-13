@@ -7,64 +7,64 @@
 ---
 @snap[north span-100]
 ### Warmup
-```javascript```
+```js
 > 100 == 100
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript```
-> 100 == 100
-true
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Warmup
-```javascript```
+```js
 > 100 == 100
 true
-> 100 == "100"
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript```
+```js
 > 100 == 100
 true
 > 100 == "100"
-true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript```
+```js
 > 100 == 100
 true
 > 100 == "100"
 true
-> 100 == ["100"]
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript```
+```js
 > 100 == 100
 true
 > 100 == "100"
 true
 > 100 == ["100"]
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Warmup
+```js
+> 100 == 100
+true
+> 100 == "100"
+true
+> 100 == ["100"]
 true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript```
+```js
 > 100 == 100
 true
 > 100 == "100"
@@ -77,7 +77,7 @@ true
 
 @snap[north span-100 fragment]
 ### Warmup
-```javascript```
+```js
 > 100 == 100
 true
 > 100 == "100"
@@ -91,77 +91,64 @@ true
 ---
 @snap[north span-100]
 ### Are things equal to themselves?
-```javascript```
+```js
 > "asdf" == "asdf"
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
-> "asdf" == "asdf"
-true
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Are things equal to themselves?
-```javascript```
+```js
 > "asdf" == "asdf"
 true
-> new String("asdf") == new String("asdf")
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
-false
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
 false
-> [] == []
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
 false
 > [] == []
-false
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
 false
 > [] == []
 false
-> {} == {}
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
@@ -169,13 +156,26 @@ false
 > [] == []
 false
 > {} == {}
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```js
+> "asdf" == "asdf"
+true
+> new String("asdf") == new String("asdf")
+false
+> [] == []
+false
+> {} == {}
 false
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
@@ -190,7 +190,7 @@ false
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > "asdf" == "asdf"
 true
 > new String("asdf") == new String("asdf")
@@ -206,77 +206,64 @@ false
 ---
 @snap[north span-100]
 ### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
-> let a = new String("100");
-> a == a
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 > a == a
-true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 > a == a
 true
-> a = [];
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 > a == a
 true
 > a = [];
-> a == a
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 > a == a
 true
 > a = [];
 > a == a
-true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 > a == a
 true
 > a = [];
 > a == a
 true
-> a = {};
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 > a == a
 true
@@ -284,13 +271,12 @@ true
 > a == a
 true
 > a = {};
-> a == a
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 > a == a
 true
@@ -299,13 +285,27 @@ true
 true
 > a = {};
 > a == a
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Are things equal to themselves?
+```js
+> let a = new String("100");
+> a == a
+true
+> a = [];
+> a == a
+true
+> a = {};
+> a == a
 true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 > a == a
 true
@@ -321,7 +321,7 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 > a == a
 true
@@ -338,7 +338,7 @@ true
 
 @snap[north span-100 fragment]
 ### Are things equal to themselves?
-```javascript```
+```js
 > let a = new String("100");
 > a == a
 true
@@ -356,14 +356,14 @@ false
 ---
 @snap[north span-100]
 ### Fun with arrays
-```javascript```
+```js
 > ["1", "2", "3"].map(parseInt)
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Fun with arrays
-```javascript```
+```js
 > ["1", "2", "3"].map(parseInt)
 [1, NaN, NaN]
 ```
@@ -371,7 +371,7 @@ false
 
 @snap[north span-100 fragment]
 ### Fun with arrays
-```javascript```
+```js
 > ["1", "2", "3"].map(parseInt)
 [1, NaN, NaN]
 > [1] + [2] + [3]
@@ -380,7 +380,7 @@ false
 
 @snap[north span-100 fragment]
 ### Fun with arrays
-```javascript```
+```js
 > ["1", "2", "3"].map(parseInt)
 [1, NaN, NaN]
 > [1] + [2] + [3]
@@ -390,7 +390,7 @@ false
 
 @snap[north span-100 fragment]
 ### Fun with arrays
-```javascript```
+```js
 > ["1", "2", "3"].map(parseInt)
 [1, NaN, NaN]
 > [1] + [2] + [3]
@@ -401,7 +401,7 @@ false
 
 @snap[north span-100 fragment]
 ### Fun with arrays
-```javascript```
+```js
 > ["1", "2", "3"].map(parseInt)
 [1, NaN, NaN]
 > [1] + [2] + [3]
@@ -413,7 +413,7 @@ false
 
 @snap[north span-100 fragment]
 ### Fun with arrays
-```javascript```
+```js
 > ["1", "2", "3"].map(parseInt)
 [1, NaN, NaN]
 > [1] + [2] + [3]
@@ -426,7 +426,7 @@ false
 
 @snap[north span-100 fragment]
 ### Fun with arrays
-```javascript```
+```js
 > ["1", "2", "3"].map(parseInt)
 [1, NaN, NaN]
 > [1] + [2] + [3]
@@ -440,41 +440,41 @@ false
 ---
 @snap[north span-100]
 ### <= != < || ==
-```javascript```
+```js
 > [1, 2, 3] == [1, 2, 3]
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### <= != < || ==
-```javascript```
-> [1, 2, 3] == [1, 2, 3]
-false
-```
-@snapend
-
-@snap[north span-100 fragment]
-### <= != < || ==
-```javascript```
+```js
 > [1, 2, 3] == [1, 2, 3]
 false
-> [1, 2, 3] < [1, 2, 3]
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### <= != < || ==
-```javascript```
+```js
 > [1, 2, 3] == [1, 2, 3]
 false
 > [1, 2, 3] < [1, 2, 3]
+```
+@snapend
+
+@snap[north span-100 fragment]
+### <= != < || ==
+```js
+> [1, 2, 3] == [1, 2, 3]
+false
+> [1, 2, 3] < [1, 2, 3]
 false
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### <= != < || ==
-```javascript```
+```js
 > [1, 2, 3] == [1, 2, 3]
 false
 > [1, 2, 3] < [1, 2, 3]
@@ -485,7 +485,7 @@ false
 
 @snap[north span-100 fragment]
 ### <= != < || ==
-```javascript```
+```js
 > [1, 2, 3] == [1, 2, 3]
 false
 > [1, 2, 3] < [1, 2, 3]
@@ -497,77 +497,64 @@ true
 ---
 @snap[north span-100]
 ### Wat
-```javascript```
+```js
 > [] + []
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Wat
-```javascript```
-> [] + []
-""
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Wat
-```javascript```
+```js
 > [] + []
 ""
-> [] + {}
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Wat
-```javascript```
+```js
 > [] + []
 ""
 > [] + {}
-"[Object object]"
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Wat
-```javascript```
+```js
 > [] + []
 ""
 > [] + {}
 "[Object object]"
-> {} + []
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Wat
-```javascript```
+```js
 > [] + []
 ""
 > [] + {}
 "[Object object]"
 > {} + []
-0
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Wat
-```javascript```
+```js
 > [] + []
 ""
 > [] + {}
 "[Object object]"
 > {} + []
 0
-> [] - []
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Wat
-```javascript```
+```js
 > [] + []
 ""
 > [] + {}
@@ -575,13 +562,26 @@ true
 > {} + []
 0
 > [] - []
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Wat
+```js
+> [] + []
+""
+> [] + {}
+"[Object object]"
+> {} + []
+0
+> [] - []
 0
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Wat
-```javascript```
+```js
 > [] + []
 ""
 > [] + {}
@@ -596,7 +596,7 @@ true
 
 @snap[north span-100 fragment]
 ### Wat
-```javascript```
+```js
 > [] + []
 ""
 > [] + {}
@@ -612,7 +612,7 @@ true
 
 @snap[north span-100 fragment]
 ### Wat
-```javascript```
+```js
 > [] + []
 ""
 > [] + {}
@@ -629,7 +629,7 @@ true
 
 @snap[north span-100 fragment]
 ### Wat
-```javascript```
+```js
 > [] + []
 ""
 > [] + {}
@@ -647,41 +647,41 @@ NaN
 ---
 @snap[north span-100]
 ### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Wat 2
-```javascript```
-> ""*"" == 0
-true
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 true
-> ""**"" == 1
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 true
 > ""**"" == 1
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Wat 2
+```js
+> ""*"" == 0
+true
+> ""**"" == 1
 true
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 true
 > ""**"" == 1
@@ -692,7 +692,7 @@ true
 
 @snap[north span-100 fragment]
 ### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 true
 > ""**"" == 1
@@ -704,7 +704,7 @@ Syntax Error: Unexpected token *
 
 @snap[north span-100 fragment]
 ### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 true
 > ""**"" == 1
@@ -717,7 +717,7 @@ Syntax Error: Unexpected token *
 
 @snap[north span-100 fragment]
 ### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 true
 > ""**"" == 1
@@ -731,7 +731,7 @@ number
 
 @snap[north span-100 fragment]
 ### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 true
 > ""**"" == 1
@@ -746,7 +746,7 @@ number
 
 @snap[north span-100 fragment]
 ### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 true
 > ""**"" == 1
@@ -762,7 +762,7 @@ NaN
 
 @snap[north span-100 fragment]
 ### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 true
 > ""**"" == 1
@@ -779,7 +779,7 @@ NaN
 
 @snap[north span-100 fragment]
 ### Wat 2
-```javascript```
+```js
 > ""*"" == 0
 true
 > ""**"" == 1
@@ -797,71 +797,34 @@ NaN
 ---
 @snap[north span-100]
 ### A footnote on whitespace
-```javascript```
+```js
 > 42.toFixed(2)
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### A footnote on whitespace
-```javascript```
-> 42.toFixed(2)
-SyntaxError: Invalid or unexpected token
-```
-@snapend
-
-@snap[north span-100 fragment]
-### A footnote on whitespace
-```javascript```
+```js
 > 42.toFixed(2)
 SyntaxError: Invalid or unexpected token
-> 42 .toFixed(2)
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### A footnote on whitespace
-```javascript```
+```js
 > 42.toFixed(2)
 SyntaxError: Invalid or unexpected token
 > 42 .toFixed(2)
-42.00
 ```
 @snapend
 
 @snap[north span-100 fragment]
 ### A footnote on whitespace
-```javascript```
+```js
 > 42.toFixed(2)
 SyntaxError: Invalid or unexpected token
 > 42 .toFixed(2)
 42.00
-> function asdf() {
-    return
-    {
-      a: 1,
-      b: 2
-    }
-  }
-> asdf()
-```
-@snapend
-
-@snap[north span-100 fragment]
-### A footnote on whitespace
-```javascript```
-> 42.toFixed(2)
-SyntaxError: Invalid or unexpected token
-> 42 .toFixed(2)
-42.00
-> function asdf() {
-    return
-    {
-      a: 1,
-      b: 2
-    }
-  }
-> asdf()
-undefined
 ```
 @snapend

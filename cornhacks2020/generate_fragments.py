@@ -37,7 +37,7 @@ def get_snap_block(title, lines, fragment=True, endline=True):
     snap_lines = [
         "@snap[north span-100 fragment]" if fragment else "@snap[north span-100]",
         f"### {title}",
-        "```javascript```"
+        "```js"
     ]
     for line in lines:
         snap_lines.append(line.strip())
