@@ -1179,7 +1179,24 @@ Eventually the standard became ECMAScript.
 ![Browser Wars](/cornhacks2020/assets/images/browser_wars.png)
 @snapend
 ---
+@snap[north span-100]
 ### Aftermath
+@snapend
+
+@snap[west span-33 fragment text-center]
+![Firefox](/cornhacks2020/assets/images/firefox.png)
+Netscape gave their code to Mozilla.
+@snapend
+
+@snap[west span-33 fragment text-center]
+![Trust Bust](/cornhacks2020/assets/images/trust_bust.png)
+Microsoft got trust busted for bundling their browser & OS.
+@snapend
+
+@snap[west span-33 fragment text-center]
+![No Internet](/cornhacks2020/assets/images/no_internet.jpg)
+The war was won, Microsoft moved on to other things.
+@snapend
 ---
 ### How is a language so bad so successful?
 ---
