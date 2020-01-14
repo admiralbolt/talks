@@ -28,7 +28,7 @@
 @snap[span-100]
 @css[fragment](Google finally released its highly anticipated 3rd rewrite of Angular:)
 @css[fragment](Angular 2)
-@css[fragment](The last bastions of hope for programming were kernels still written in C/C++.)
+@css[fragment](Kernels were the only things left not written in javascript)
 @snapend
 ---
 @snap[north span-100]
@@ -869,41 +869,41 @@ NaN
 @snapend
 ---
 @snap[north span-100]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 ```
 @snapend
 
 @snap[north span-100 fragment]
-### Wat 2
-```js
-> ""*"" == 0
-true
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 true
-> ""**"" == 1
 ```
 @snapend
 
 @snap[north span-100 fragment]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 true
 > ""**"" == 1
+```
+@snapend
+
+@snap[north span-100 fragment]
+### Misc
+```js
+> ""*"" == 0
+true
+> ""**"" == 1
 true
 ```
 @snapend
 
 @snap[north span-100 fragment]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 true
@@ -914,7 +914,7 @@ true
 @snapend
 
 @snap[north span-100 fragment]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 true
@@ -926,7 +926,7 @@ Syntax Error: Unexpected token *
 @snapend
 
 @snap[north span-100 fragment]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 true
@@ -939,7 +939,7 @@ Syntax Error: Unexpected token *
 @snapend
 
 @snap[north span-100 fragment]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 true
@@ -953,7 +953,7 @@ number
 @snapend
 
 @snap[north span-100 fragment]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 true
@@ -968,7 +968,7 @@ number
 @snapend
 
 @snap[north span-100 fragment]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 true
@@ -984,7 +984,7 @@ NaN
 @snapend
 
 @snap[north span-100 fragment]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 true
@@ -1001,7 +1001,7 @@ NaN
 @snapend
 
 @snap[north span-100 fragment]
-### Wat 2
+### Misc
 ```js
 > ""*"" == 0
 true
@@ -1188,13 +1188,13 @@ Eventually the standard became ECMAScript.
 Netscape gave their code to Mozilla.
 @snapend
 
-@snap[west span-33 fragment text-center]
+@snap[midpoint span-33 fragment text-center]
 ![Trust Bust](/cornhacks2020/assets/images/trust_bust.png)
 Microsoft got trust busted for bundling their browser & OS.
 @snapend
 
-@snap[west span-33 fragment text-center]
-![No Internet](/cornhacks2020/assets/images/no_internet.jpg)
+@snap[east span-33 fragment text-center]
+![No Internet](/cornhacks2020/assets/images/no_internet.png)
 The war was won, Microsoft moved on to other things.
 @snapend
 ---
