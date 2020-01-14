@@ -95,11 +95,19 @@ because of the competition threat that microsoft posed to Netscape.
 
 How is a language so bad so successful? The answer is simple, no real competition.
 
-Javascript's success is almost accidental, it's a side effect of the first
-browser war. It didn't make sense at the time to invent a whole new language
-for Microsoft. Why not use the same standard to help fight for market share?
-The closest competitor to javascript was probably Flash & Actionscript, but even
-that had to be embedded, it couldn't manipulate the DOM directly in the same way
-that javascript could. Now at the point we are at, javascript is too big to fail.
-It's integrated into ALL browsers and is the accepted standard for dynamic web
-development.
+At no point during this brief history did I talk about competitors, because
+there really aren't any. The closes competitor is arguably Flash/Actionscript,
+but even that had to be embedded and couldn't manipulate the DOM directly.
+Javascript's success was almost accidental, a side effect of the first browser
+war. IT didn't make sense for Microsoft to invent a whole new language, they
+used the same standard to help fight for market share, and it stuck. Now at
+the point where we are, javascript is too big to fail. It's integrated into
+ALL browsers and is the accepted standard for dynamic web development.
+
+What's in store for the future? I was being a little hyperbolic in the intro
+but it's already true that you could write your whole stack in javascript.
+NodeOS is a real thing. With enough speed improvements we could also see
+something like Web Assembly take over, and then we wouldn't need to write
+javascript ever again. It's hard to say for sure what'll happen, but I doubt
+javascript is going anywhere. So hate it or love it, you're probably going
+to need to use it.

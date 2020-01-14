@@ -1203,6 +1203,13 @@ The war was won, Microsoft moved on to other things.
 ### It has no real competition.
 ---
 @snap[north span-100]
+### The Future?
+1. Full stack development can already be done in javascript.
+2. Web Assembly (things like asm.js). [Doom 3 Demo](http://wasm.continuation-labs.com/d3demo/)
+
+@snapend
+---
+@snap[north span-100]
 ### History of JS Sources
 [Brendan Eich's Blog](https://brendaneich.com)
 [A Brief History of Javascript](https://auth0.com/blog/a-brief-history-of-javascript/) by Sebastian Peyrott
@@ -1210,7 +1217,6 @@ The war was won, Microsoft moved on to other things.
 [The Javascript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M) by Douglass Crockford
 [The History of Javascript](http://www.davevoyles.com/2014/10/24/history-javascript-told-douglas-crockford/) by Douglass Crockford
 [Interview with Brendan Eich](https://www.infoworld.com/article/2653798/javascript-creator-ponders-past--future.html)
-[The Tale of Javascript](http://www.davevoyles.com/2014/10/24/history-javascript-told-douglas-crockford/)
 @snapend
 ---
 @snap[north span-100]
@@ -1222,5 +1228,12 @@ The war was won, Microsoft moved on to other things.
 https://gist.github.com/MichalZalecki/c964192f830360ce6361
 https://wtfjs.com/
 http://www.bradoncode.com/blog/2015/08/26/javascript-semi-colon-insertion/
+@snapend
+---
+### Thank you!
+
+@snap[south span-100 text-left]
+@fa[github] https://github.com/admiralbolt
+@fa[linkedin] https://www.linkedin.com/in/aviknecht/
 @snapend
 ---
