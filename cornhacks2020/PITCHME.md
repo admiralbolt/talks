@@ -1175,10 +1175,10 @@ Eventually the standard became ECMAScript.
 ### End of the Browser Wars
 @snapend
 
-1. Netscape eventually self destructed, and IE became the most popular.
-2. Microsoft declared the browser war won, and moved on to more important things.
-3. Thanks to the JScript implementation they wrote javascript survived.
-4. Eventually AJAX becomes a thing and javascript has a surge in popularity again.
+@snap[midpoint span-100]
+![Browser Wars](/cornhacks2020/assets/images/browser_wars.png)
+@snapend
+
 ---
 @snap[north span-100]
 ### Success of Javascript
