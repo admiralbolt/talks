@@ -1179,6 +1179,8 @@ Eventually the standard became ECMAScript.
 ![Browser Wars](/cornhacks2020/assets/images/browser_wars.png)
 @snapend
 ---
+### Aftermath
+---
 ### How is a language so bad so successful?
 ---
 ### It has no real competition.

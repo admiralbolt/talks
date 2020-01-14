@@ -91,9 +91,7 @@ against other browsers that focused on other things besides IE.
 
 Javascript survived because of Microsoft. The JScript engine was still in IE
 the most popular browser at the time. A standard was created for the language
-because of the competition threat that microsoft posed to Netscape. Eventually
-some 5 years later when Jesse James Garrett came up with this thing called AJAX
-javacsript surged in popularity again.
+because of the competition threat that microsoft posed to Netscape.
 
 How is a language so bad so successful? The answer is simple, no real competition.
 
