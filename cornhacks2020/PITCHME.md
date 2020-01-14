@@ -1178,7 +1178,6 @@ Eventually the standard became ECMAScript.
 @snap[midpoint span-100]
 ![Browser Wars](/cornhacks2020/assets/images/browser_wars.png)
 @snapend
-
 ---
 @snap[north span-100]
 ### Success of Javascript
@@ -1189,28 +1188,29 @@ Eventually the standard became ECMAScript.
 3. The closest competitor is probably Flash.
 4. Brendan Eich: "The rest is perverse, merciless history. JS beat Java on the client, rivaled only by Flash, which supports an offspring of JS, ActionScript."
 ---
-### How is a language so bad so popular?
+### How is a language so bad so successful?
 ---
 ### It has no real competition.
 ---
 
 @snap[north span-100]
-### Sources
-
+### History of JS Sources
 [Brendan Eich's Blog](https://brendaneich.com)
-[What the Javascript](https://www.youtube.com/watch?v=2pL28CcEijU&feature=youtu.be) by Kyle Simpson
-[Wat](https://www.destroyallsoftware.com/talks/wat) by Gary Bernhardt
-[The Birth & Death of Javascript](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript) by Gary Bernhardt
 [A Brief History of Javascript](https://auth0.com/blog/a-brief-history-of-javascript/) by Sebastian Peyrott
 [An Introduction to Javascript](https://www.youtube.com/watch?v=1EyRscXrehw) by Brendan Eich
 [The Javascript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M) by Douglass Crockford
 [The History of Javascript](http://www.davevoyles.com/2014/10/24/history-javascript-told-douglas-crockford/) by Douglass Crockford
+[Interview with Brendan Eich](https://www.infoworld.com/article/2653798/javascript-creator-ponders-past--future.html)
+[The Tale of Javascript](http://www.davevoyles.com/2014/10/24/history-javascript-told-douglas-crockford/)
 
+### JS Sucks Sources
+[What the Javascript](https://www.youtube.com/watch?v=2pL28CcEijU&feature=youtu.be) by Kyle Simpson
+[Wat](https://www.destroyallsoftware.com/talks/wat) by Gary Bernhardt
+[The Birth & Death of Javascript](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript) by Gary Bernhardt
 
 https://gist.github.com/MichalZalecki/c964192f830360ce6361
 https://wtfjs.com/
 http://www.bradoncode.com/blog/2015/08/26/javascript-semi-colon-insertion/
-[Interview with Brendan Eich](https://www.infoworld.com/article/2653798/javascript-creator-ponders-past--future.html)
-[The Tale of Javascript](http://www.davevoyles.com/2014/10/24/history-javascript-told-douglas-crockford/)
+
 @snapend
 ---
