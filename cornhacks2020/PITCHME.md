@@ -1132,8 +1132,68 @@ Created by Brendan Eich in 10 days.
 ![Javascript](/cornhacks2020/assets/images/javascript.jpg)
 Eventually renamed to Javascript due to licensing with Sun.
 @snapend
-
 ---
+@snap[north span-100]
+### JScript
+@snapend
+
+@snap[west span-33 fragment text-center]
+![Internet Explorer](/cornhacks2020/assets/images/ie.png)
+Other browsers needed javascript implementations.
+@snapend
+
+@snap[midpoint span-33 fragment text-center]
+![Microsoft](/cornhacks2020/assets/images/microsoft.png)
+Microsoft began working on reverse engineering Javascript.
+@snapend
+
+@snap[east span-33 fragment text-center]
+![JScript](/cornhacks2020/assets/images/jscript.png)
+Created their own implementation, JScript.
+@snapend
+---
+@snap[north span-100]
+### ECMAScript
+@snapend
+
+@snap[west span-33 fragment text-center]
+![W3C](/cornhacks2020/assets/images/w3c.png)
+Netscape initially went to W3C
+@snapend
+
+@snap[midpoint span-33 fragment text-center]
+![ECMA](/cornhacks2020/assets/images/ecma.jpg)
+Eventually landed on ECMA.
+@snapend
+
+@snap[east span-33 fragment text-center]
+![ECMAScript](/cornhacks2020/assets/images/ecmascript.png)
+Eventually the standard became ECMAScript.
+@snapend
+---
+@snap[north span-100]
+### End of the Browser Wars
+@snapend
+
+1. Netscape eventually self destructed, and IE became the most popular.
+2. Microsoft declared the browser war won, and moved on to more important things.
+3. Thanks to the JScript implementation they wrote javascript survived.
+4. Eventually AJAX becomes a thing and javascript has a surge in popularity again.
+---
+@snap[north span-100]
+### Success of Javascript
+@snapend
+
+1. Success was almost accidental.
+2. Microsoft didn't think the web had longevity, and didn't really invest in javascript. It was simply a side effect of the browser war between Netscape & Microsoft.
+3. The closest competitor is probably Flash.
+4. Brendan Eich: "The rest is perverse, merciless history. JS beat Java on the client, rivaled only by Flash, which supports an offspring of JS, ActionScript."
+---
+### How is a language so bad so popular?
+---
+### It has no real competition.
+---
+
 @snap[north span-100]
 ### Sources
 
@@ -1143,12 +1203,14 @@ Eventually renamed to Javascript due to licensing with Sun.
 [The Birth & Death of Javascript](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript) by Gary Bernhardt
 [A Brief History of Javascript](https://auth0.com/blog/a-brief-history-of-javascript/) by Sebastian Peyrott
 [An Introduction to Javascript](https://www.youtube.com/watch?v=1EyRscXrehw) by Brendan Eich
-[The Javascript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M) by Douglass Crockfod
+[The Javascript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M) by Douglass Crockford
+[The History of Javascript](http://www.davevoyles.com/2014/10/24/history-javascript-told-douglas-crockford/) by Douglass Crockford
 
 
 https://gist.github.com/MichalZalecki/c964192f830360ce6361
 https://wtfjs.com/
 http://www.bradoncode.com/blog/2015/08/26/javascript-semi-colon-insertion/
 [Interview with Brendan Eich](https://www.infoworld.com/article/2653798/javascript-creator-ponders-past--future.html)
+[The Tale of Javascript](http://www.davevoyles.com/2014/10/24/history-javascript-told-douglas-crockford/)
 @snapend
 ---
