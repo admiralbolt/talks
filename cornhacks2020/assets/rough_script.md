@@ -72,24 +72,36 @@ standards process within 1 day, but many of the original quirks of the javascrip
 were required by the standard to be kept for backwards compatability reasons. Netscape
 didn't want Javascript to become the standard name, so eventually it was named ECMAScript.
 
-Netscape eventually self destructed, and IE became the most popular browser. Microsoft
-declare the browser war won, and moved on to other more important things like making cable
-boxes. But, thanks to the JScript implementation they wrote, Javascript survived, laying
-dormant and waiting for the right time to strike. Which was some 5 years lated when
-Jesse James Garrett came up with this thing called AJAX, and javascript had a meteoric
-surge in popularity.
+This set the stage for the first browser war. The JScript engine & mcirosofts
+Internet Explorer vs. the Spider Monkey engine & Netscape. The only problem was
+that Netscape had no business sense. Their idea was to get everyone hooked on
+their free browser and then start charging for it. Microsoft was already
+seelling OS's so they didn't need to charge for ie, and even started bundling
+it with their OS. Overtime this led to the downfall of Netscape.
 
-Javascript's success is almost accidental. Microsoft didn't care about the web, and didn't
-think that it had longevity. Javascript was merely a spoil of war in the competition between
-Netscape & Microsoft. The closest copmetitor to javascript was probably Flash & Actionscript,
-but even that couldn't manipulate the DOM directly.
+The browser war was over, and microsoft had won. A few interesting things
+happened at the end of the war though. Netscape open sourced it's browser and
+gave it over to this non-profit organization Mozilla. The bundling of browser
+with OS actually got Microsoft trust busted. There was a large anti-trust suit
+against them starting in 1998, and they lost. In June of 2000 a court ordered
+a breakup of Microsoft. Which obviously didn't happen, they appealed and won
+but still pretty interesting. Finally, Microsoft didn't think that the
+internet was a technology that had longevity, and with no need to compete
+against other browsers that focused on other things besides IE.
 
-"The rest is perverse, merciless history. JS beat Java on the client, rivaled only by Flash, which supports an offspring of JS, ActionScript."
+Javascript survived because of Microsoft. The JScript engine was still in IE
+the most popular browser at the time. A standard was created for the language
+because of the competition threat that microsoft posed to Netscape. Eventually
+some 5 years later when Jesse James Garrett came up with this thing called AJAX
+javacsript surged in popularity again.
 
-So to answer the question, "How is a language so bad so popular?". The answer is quite simple.
-It has no real competition.
+How is a language so bad so successful? The answer is simple, no real competition.
 
-Few attempts have been made to up root javascript. Arguably Flash and maybe silverlight. Google
-created Dart some 8 years back which was supposed to kill javascript, which has been less than
-successful. At this point its simply too big too fail. It's integrated into ALL browsers no,
-and is the standard for making dynamic pages.
+Javascript's success is almost accidental, it's a side effect of the first
+browser war. It didn't make sense at the time to invent a whole new language
+for Microsoft. Why not use the same standard to help fight for market share?
+The closest competitor to javascript was probably Flash & Actionscript, but even
+that had to be embedded, it couldn't manipulate the DOM directly in the same way
+that javascript could. Now at the point we are at, javascript is too big to fail.
+It's integrated into ALL browsers and is the accepted standard for dynamic web
+development.

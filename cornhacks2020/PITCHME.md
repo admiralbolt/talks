@@ -1172,21 +1172,12 @@ Eventually the standard became ECMAScript.
 @snapend
 ---
 @snap[north span-100]
-### End of the Browser Wars
+### Browser Wars
 @snapend
 
 @snap[midpoint span-100]
 ![Browser Wars](/cornhacks2020/assets/images/browser_wars.png)
 @snapend
----
-@snap[north span-100]
-### Success of Javascript
-@snapend
-
-1. Success was almost accidental.
-2. Microsoft didn't think the web had longevity, and didn't really invest in javascript. It was simply a side effect of the browser war between Netscape & Microsoft.
-3. The closest competitor is probably Flash.
-4. Brendan Eich: "The rest is perverse, merciless history. JS beat Java on the client, rivaled only by Flash, which supports an offspring of JS, ActionScript."
 ---
 ### How is a language so bad so successful?
 ---
