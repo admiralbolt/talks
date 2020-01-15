@@ -33,17 +33,16 @@ be noted that all of these I ran in a node console, so if you run inside differe
 **may** get different results. It's also a little hard to tell by these are double equals signs,
 The css smushes them together for some reason.
 
-JS STUFF
+## JS STUFF
 
 So as demonstrated, there are a lot of times when the language doesn't behave in ways that you
 expect. Sure the language has some quirks, but does that necessarily make the language bad? Well
 if you're asking me I'm gonna say yeah, it sucks.
 
 I'm not alone in my opinion though, the language is almost universally hated. Despite being
-disliked, it's still the most popular language in the world. I've always wondered how? It seems
-like new languages pop up like crazy, so why hasn't javascript had a real competitor in the past
-25 years? The answer is unfortunately not that satisfying, but nonetheless let's go back
-in time to where it all began.
+disliked, it's still the most popular language in the world. I've always wondered
+how is a language so bad, so popular? The answer is unfortunately not that satisfying,
+but nonetheless let's go back in time to where it all began.
 
 The year is 1995. Netscape Communicator is the most popular browser currently, and the founder of
 Netscape, Mark Andreesan had a big idea for what the future of the internet should be. He
