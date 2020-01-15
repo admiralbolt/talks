@@ -35,7 +35,7 @@
 ### The Year is 2030
 
 @css[fragment](Javascript is the **only** language run on most machines)
-@css[fragment](NodeOS became the most popular operating system.)
+@css[fragment](![NodeOs](/cornhacks2020/assets/images/node_os.png)
 @snapend
 ---
 # Javascript Sucks
