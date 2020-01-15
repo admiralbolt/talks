@@ -288,42 +288,6 @@ true
 > let a = new String("100");
 > a == a
 true
-> a = [];
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Are things equal to themselves?
-```js
-> let a = new String("100");
-> a == a
-true
-> a = [];
-> a == a
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Are things equal to themselves?
-```js
-> let a = new String("100");
-> a == a
-true
-> a = [];
-> a == a
-true
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Are things equal to themselves?
-```js
-> let a = new String("100");
-> a == a
-true
-> a = [];
-> a == a
-true
 > a = {};
 ```
 @snapend
@@ -332,9 +296,6 @@ true
 ### Are things equal to themselves?
 ```js
 > let a = new String("100");
-> a == a
-true
-> a = [];
 > a == a
 true
 > a = {};
@@ -348,9 +309,6 @@ true
 > let a = new String("100");
 > a == a
 true
-> a = [];
-> a == a
-true
 > a = {};
 > a == a
 true
@@ -361,9 +319,6 @@ true
 ### Are things equal to themselves?
 ```js
 > let a = new String("100");
-> a == a
-true
-> a = [];
 > a == a
 true
 > a = {};
@@ -379,9 +334,6 @@ true
 > let a = new String("100");
 > a == a
 true
-> a = [];
-> a == a
-true
 > a = {};
 > a == a
 true
@@ -394,9 +346,6 @@ true
 ### Are things equal to themselves?
 ```js
 > let a = new String("100");
-> a == a
-true
-> a = [];
 > a == a
 true
 > a = {};
@@ -949,72 +898,6 @@ true
 Syntax Error: Unexpected token *
 > typeof(NaN)
 number
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-> ""**"" == 1
-true
-> ""***"" == 2
-Syntax Error: Unexpected token *
-> typeof(NaN)
-number
-> Number(undefined)
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-> ""**"" == 1
-true
-> ""***"" == 2
-Syntax Error: Unexpected token *
-> typeof(NaN)
-number
-> Number(undefined)
-NaN
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-> ""**"" == 1
-true
-> ""***"" == 2
-Syntax Error: Unexpected token *
-> typeof(NaN)
-number
-> Number(undefined)
-NaN
-> Number(null)
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-> ""**"" == 1
-true
-> ""***"" == 2
-Syntax Error: Unexpected token *
-> typeof(NaN)
-number
-> Number(undefined)
-NaN
-> Number(null)
-0
 ```
 @snapend
 ---

@@ -75,9 +75,6 @@ def make_slides():
         "> let a = new String(\"100\");",
         "> a == a",
         "true",
-        "> a = [];",
-        "> a == a",
-        "true",
         "> a = {};",
         "> a == a",
         "true",
@@ -137,7 +134,7 @@ def make_slides():
         "NaN"
     ]))
     print("---")
-    print(fragmentize("Wat 2", [
+    print(fragmentize("Misc", [
         "> \"\"*\"\" == 0",
         "true",
         "> \"\"**\"\" == 1",
@@ -146,10 +143,6 @@ def make_slides():
         "Syntax Error: Unexpected token *",
         "> typeof(NaN)",
         "number",
-        "> Number(undefined)",
-        "NaN",
-        "> Number(null)",
-        "0"
     ]))
     print("---")
     print(fragmentize("A footnote on whitespace", [
