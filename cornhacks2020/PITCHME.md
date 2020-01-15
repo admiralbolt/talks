@@ -35,7 +35,9 @@
 ### The Year is 2030
 
 @css[fragment](Javascript is the **only** language run on most machines)
-@css[fragment](![NodeOs](/cornhacks2020/assets/images/node_os.png)
+@snap[fragment]
+![NodeOs](/cornhacks2020/assets/images/node_os.png)
+@snapend
 @snapend
 ---
 # Javascript Sucks
