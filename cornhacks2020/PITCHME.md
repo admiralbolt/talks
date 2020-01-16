@@ -1016,19 +1016,19 @@ The war was won, Microsoft moved on to other things.
 ---
 @snap[north span-100]
 ### History of JS Sources
-[Brendan Eich's Blog](https://brendaneich.com)
-[A Brief History of Javascript](https://auth0.com/blog/a-brief-history-of-javascript/) by Sebastian Peyrott
-[An Introduction to Javascript](https://www.youtube.com/watch?v=1EyRscXrehw) by Brendan Eich
-[The Javascript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M) by Douglass Crockford
 [The History of Javascript](http://www.davevoyles.com/2014/10/24/history-javascript-told-douglas-crockford/) by Douglass Crockford
+[The Javascript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M) by Douglass Crockford
+[Brendan Eich's Blog](https://brendaneich.com)
+[An Introduction to Javascript](https://www.youtube.com/watch?v=1EyRscXrehw) by Brendan Eich
 [Interview with Brendan Eich](https://www.infoworld.com/article/2653798/javascript-creator-ponders-past--future.html)
+[A Brief History of Javascript](https://auth0.com/blog/a-brief-history-of-javascript/) by Sebastian Peyrott
 @snapend
 ---
 @snap[north span-100]
 ### JS Sucks Sources
-[What the Javascript](https://www.youtube.com/watch?v=2pL28CcEijU&feature=youtu.be) by Kyle Simpson
 [Wat](https://www.destroyallsoftware.com/talks/wat) by Gary Bernhardt
 [The Birth & Death of Javascript](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript) by Gary Bernhardt
+[What the Javascript](https://www.youtube.com/watch?v=2pL28CcEijU&feature=youtu.be) by Kyle Simpson
 
 https://gist.github.com/MichalZalecki/c964192f830360ce6361
 https://wtfjs.com/
