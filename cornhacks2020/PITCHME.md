@@ -1006,19 +1006,13 @@ The war was won, Microsoft moved on to other things.
 ---
 @snap[north span-100]
 ### The Future?
-@snapend
+@css[fragment](Full stack development can already be done in javascript.)
 
-@snap[north span-100 fragment
-### The Future?
-1. Full stack development can already be done in javascript.
-@snapend
-
-@snap[north span-100 fragment
-### The Future?
-1. Full stack development can already be done in javascript.
+@snap[fragment]
 ![Doom](/cornhacks2020/assets/images/doom.png)
 @snapend
 
+@snapend
 ---
 @snap[north span-100]
 ### History of JS Sources
