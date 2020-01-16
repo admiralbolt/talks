@@ -1012,7 +1012,7 @@ Created by Brendan Eich in 10 days.
 @snapend
 
 @snap[east span-33 fragment text-center]
-![Javascript](/cornhacks2020/assets/images/javascript.jpg)
+![Javascript](/cornhacks2020/assets/images/javascript.png)
 Eventually renamed to Javascript due to licensing with Sun.
 @snapend
 ---
