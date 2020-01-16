@@ -35,7 +35,9 @@
 ### The Year is 2030
 
 @css[fragment](Javascript is the **only** language run on most machines)
-@css[fragment](NodeOS became the most popular operating system.)
+@snap[fragment]
+![NodeOs](/cornhacks2020/assets/images/node_os.png)
+@snapend
 @snapend
 ---
 # Javascript Sucks
@@ -814,92 +816,6 @@ true
 -0
 > [] - {}
 NaN
-```
-@snapend
----
-@snap[north span-100]
-### Misc
-```js
-> ""*"" == 0
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-> ""**"" == 1
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-> ""**"" == 1
-true
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-> ""**"" == 1
-true
-> ""***"" == 2
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-> ""**"" == 1
-true
-> ""***"" == 2
-Syntax Error: Unexpected token *
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-> ""**"" == 1
-true
-> ""***"" == 2
-Syntax Error: Unexpected token *
-> typeof(NaN)
-```
-@snapend
-
-@snap[north span-100 fragment]
-### Misc
-```js
-> ""*"" == 0
-true
-> ""**"" == 1
-true
-> ""***"" == 2
-Syntax Error: Unexpected token *
-> typeof(NaN)
-number
-```
-@snapend
 ---
 @snap[north span-100]
 ### A footnote on whitespace
@@ -984,7 +900,7 @@ undefined
 
 @snap[west span-33 fragment text-center]
 ![Netscape Communicator](/cornhacks2020/assets/images/netscape.png)
-Netscape Communicator, the most popular browser at the time.
+Netscape Navigator, the most popular browser at the time.
 @snapend
 
 @snap[midpoint span-33 fragment text-center]
@@ -1072,7 +988,7 @@ Netscape gave their code to Mozilla.
 @snapend
 
 @snap[midpoint span-33 fragment text-center]
-![Trust Bust](/cornhacks2020/assets/images/trust_bust.png)
+![Trust Bust](/cornhacks2020/assets/images/trust_bust.jpg)
 Microsoft got trust busted for bundling their browser & OS.
 @snapend
 
@@ -1080,6 +996,8 @@ Microsoft got trust busted for bundling their browser & OS.
 ![No Internet](/cornhacks2020/assets/images/no_internet.png)
 The war was won, Microsoft moved on to other things.
 @snapend
+---
+### Javascript survived because of Microsoft.
 ---
 ### How is a language so bad so successful?
 ---
@@ -1119,4 +1037,3 @@ http://www.bradoncode.com/blog/2015/08/26/javascript-semi-colon-insertion/
 @fa[github] https://github.com/admiralbolt
 @fa[linkedin] https://www.linkedin.com/in/aviknecht/
 @snapend
----
