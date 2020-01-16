@@ -814,7 +814,6 @@ true
 0
 > {} - []
 -0
-> [] - {}
 NaN
 ---
 @snap[north span-100]
