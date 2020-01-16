@@ -1008,7 +1008,7 @@ The war was won, Microsoft moved on to other things.
 ### The Future?
 1. Full stack development can already be done in javascript.
 
-[!Doom](/cornhacks2020/assets/images/doom.png)
+![Doom](/cornhacks2020/assets/images/doom.png)
 
 @snapend
 ---
