@@ -88,9 +88,14 @@ but still pretty interesting. Finally, Microsoft didn't think that the
 internet was a technology that had longevity, and with no need to compete
 against other browsers that focused on other things besides IE.
 
-Javascript survived because of Microsoft. The JScript engine was still in IE
+The popularity of javascript wavered in the following years, but it survived
+because of Microsoft. The JScript engine was still in IE
 the most popular browser at the time. A standard was created for the language
 because of the competition threat that microsoft posed to Netscape.
+It kind of lay dormant until 2005 when Jesse James Garrett came up
+with this thing called AJAX. Javascript had a meteoric rise in
+popularity and it's been wildly popular since then. Which brings us back to
+our question:
 
 How is a language so bad so successful? The answer is simple, no real competition.
 
@@ -98,8 +103,8 @@ At no point during this brief history did I talk about competitors, because
 there really aren't any. The closes competitor is arguably Flash/Actionscript,
 but even that had to be embedded and couldn't manipulate the DOM directly.
 Javascript's success was almost accidental, a side effect of the first browser
-war. IT didn't make sense for Microsoft to invent a whole new language, they
-used the same standard to help fight for market share, and it stuck. Now at
+war. It was the first language to offer a dynamic web, and it was never in a
+position to be challenged. Now at
 the point where we are, javascript is too big to fail. It's integrated into
 ALL browsers and is the accepted standard for dynamic web development.
 

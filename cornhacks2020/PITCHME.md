@@ -1007,7 +1007,8 @@ The war was won, Microsoft moved on to other things.
 @snap[north span-100]
 ### The Future?
 1. Full stack development can already be done in javascript.
-2. Web Assembly (things like asm.js). [Doom 3 Demo](http://wasm.continuation-labs.com/d3demo/)
+
+[!Doom](/cornhacks2020/assets/images/doom.png)
 
 @snapend
 ---
